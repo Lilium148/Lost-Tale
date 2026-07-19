@@ -20,7 +20,21 @@ body, html {
   padding: 40px 20px;
   box-sizing: border-box;
 }
-
+.cornice-esterna {
+    background-image: url('foto/image-removebg-preview.png'); 
+    
+    background-size: 100% 100%; /* Tira l'immagine per farle coprire tutto il sito */
+    background-position: center;
+    background-repeat: no-repeat;
+    
+    /* Posizionamento fondamentale per farla stare sopra */
+    position: relative;
+    min-height: 100vh; /* La cornice deve essere alta almeno quanto tutto lo schermo */
+    
+    /* Diamo un po' di "spazio" alla cornice, così il testo non ci va sopra */
+    padding: 100px; /* Spazio sopra, sotto, destra e sinistra */
+    box-sizing: border-box; /* Calcola il padding dentro le dimensioni */
+}
 .layout-90s {
   display: flex;
   max-width: 950px;
