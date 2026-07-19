@@ -13,7 +13,7 @@ body, html {
 /* Lo sfondo floreale */
 .page-background {
   min-height: 100vh;
-  background-image: url('sito sfondo.jpg'); /* Ricordati di mettere il tuo link web qui se usi Neocities/Glitch */
+  background-image: url('foto/sito sfondo.jpg'); /* Ricordati di mettere il tuo link web qui se usi Neocities/Glitch */
   background-size: cover;
   background-position: center;
   background-attachment: fixed; 
