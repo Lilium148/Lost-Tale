@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,700;1,400&family=Federant&display=swap');
+
+body, html {
+  margin: 0;
+  padding: 0;
+  background-color: #f4e8e8; 
+  font-family: 'EB Garamond', serif; 
+  font-size: 20px; 
+  color: #2c402e; 
+  scroll-behavior: smooth; 
+}
+
+/* Lo sfondo floreale */
+.page-background {
+  min-height: 100vh;
+  background-image: url('sito sfondo.jpg'); /* Ricordati di mettere il tuo link web qui se usi Neocities/Glitch */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed; 
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+
+.layout-90s {
+  display: flex;
+  max-width: 950px;
+  margin: 0 auto;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+/* I NUOVI RIQUADRI: Morbidi, tondi e fini */
+.content-box, .sidebar {
+  /* Sfondo rosa tenue semi-trasparente */
+  background-color: rgba(248, 241, 239, 0.90); 
+  
+  /* Bordo fine color verde chiaro */
+  border: 2px solid #b8c5b1; 
+  
+  /* Angoli ben arrotondati */
+  border-radius: 25px; 
+  
+  /* Un'ombra leggerissima ed elegante per staccarli dallo sfondo */
+  box-shadow: 0 8px 20px rgba(163, 177, 155, 0.25);
+}
+
+/* Il Menu Laterale */
+.sidebar {
+  width: 240px;
+  position: sticky; 
+  top: 40px; 
+  padding: 25px 20px;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.sidebar-img {
+  width: 100%; 
+  height: auto;
+  display: block;
+  margin-bottom: 20px;
+  /* Arrotondiamo la fatina per intonarla al sito */
+  border-radius: 15px; 
+  border: 2px solid #d4e0ce; /* Bordo sottilissimo attorno alla foto */
+}
+
+.sidebar-title {
+  font-family: 'Federant', serif;
+  font-size: 28px;
+  margin-top: 0;
+  color: #6a806b; /* Verde salvia tenue */
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.menu-link {
+  text-decoration: none;
+  color: #4a5c4b;
+  font-family: 'Federant', serif;
+  font-size: 17px;
+  transition: 0.3s;
+  padding: 10px;
+  /* Arrotondiamo anche il rettangolo su cui passi col mouse */
+  border-radius: 15px; 
+}
+
+.menu-link:hover {
+  color: #a87b7b; /* Rosa antico quando ci passi sopra */
+  background-color: rgba(184, 197, 177, 0.25); /* Sfondino verde chiaro */
+}
+
+/* La Colonna dei Contenuti */
+.main-content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 30px; 
+}
+
+.content-box {
+  padding: 30px 40px;
+}
+
+.section-title {
+  font-family: 'Federant', serif;
+  font-size: 32px;
+  margin-top: 0;
+  color: #6a806b;
+  text-align: center;
+  margin-bottom: 20px;
+  /* Linea sotto il titolo fine e delicata */
+  border-bottom: 1px solid #d4e0ce;
+  padding-bottom: 15px;
+}
+
+p {
+  line-height: 1.7;
+  margin-bottom: 15px;
+}
